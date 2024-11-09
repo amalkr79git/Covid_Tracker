@@ -22,7 +22,7 @@ public class mainClasss {
 		driver.get(url);
 		
 		state.stateSelector(driver);
-		//casesCount.caseCount(driver);
+		casesCount.caseCount(driver);
 		chartData.dataFromChart(driver);
 
 
